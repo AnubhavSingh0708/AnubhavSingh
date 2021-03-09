@@ -1,10 +1,9 @@
 
 #navbar {
-
+opacity: 0.5;
   overflow: hidden;
 
   background-color: #333;
-height:10vh;
 }
 
 /* Navbar links */
