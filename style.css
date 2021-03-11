@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=MuseoModerno:wght@500&family=Orbitron&display=swap');
 #navbar {
 
   overflow: hidden;
@@ -17,7 +17,7 @@ font-size: 200%;
   color: #f2f2f2;
 
   text-align: center;
-
+font-family: 'Orbitron', sans-serif;
 
   text-decoration: none;
 
@@ -61,6 +61,22 @@ font-size: 400%;
 
  animation-iteration-count: infinite;
   }
+body{
+   background-image: url("https://anubhavsingh0708.github.io/AnubhavSingh0708/AS.png"), url("https://walli.quosmos.com/files/thumbs/4/c/9/4c9bd4f5413eadcd0ad5eb541b4c6738e0c9830b/platform-2662x2662__800_800.jpg");
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ font-family: 'Orbitron', sans-serif; 
+}
+h1{
+ font-family: 'MuseoModerno', cursive; 
+}
+h2{
+ font-family: 'MuseoModerno', cursive; 
+}
+h3{
+ font-family: 'MuseoModerno', cursive; 
+}
 @keyframes example {
 
   0%{
