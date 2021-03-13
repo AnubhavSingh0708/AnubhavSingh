@@ -72,8 +72,6 @@ body{
  background-size:100% 100vh;
    color: #e3e3e3;
  font-family: 'Orbitron', sans-serif; 
-  -webkit-backdrop-filter: blur(3vh);
-  backdrop-filter: blur(3vh);
 }
 h1{
  font-family: 'MuseoModerno', cursive; 
