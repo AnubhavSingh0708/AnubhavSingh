@@ -4,8 +4,9 @@ height:80px;
   overflow: hidden;
 width:100%;
 background-color: rgba(255,108,3,0.5);
-   -webkit-backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);	  
   backdrop-filter: blur(1vh);
+    line-height: 80px;  
 }
 
 /* Navbar links */
@@ -35,11 +36,10 @@ font-family: 'Orbitron', sans-serif;
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 
 .sticky {
-
+line-height: 80px;
   position: fixed;
 
- top: 10%;
- padding-top: 10%;
+ top: 0;
   width: 100%;
 height:80px;
   overflow: hidden;
@@ -74,13 +74,23 @@ body{
  font-family: 'Orbitron', sans-serif; 
 }
 h1{
+  -webkit-backdrop-filter: blur(10px);	  
+  backdrop-filter: blur(1vh);
  font-family: 'MuseoModerno', cursive; 
 }
 h2{
+  -webkit-backdrop-filter: blur(10px);	  
+  backdrop-filter: blur(1vh);
  font-family: 'MuseoModerno', cursive; 
 }
 h3{
+  -webkit-backdrop-filter: blur(10px);	  
+  backdrop-filter: blur(1vh);
  font-family: 'MuseoModerno', cursive; 
+}
+p{
+-webkit-backdrop-filter: blur(10px);	  
+  backdrop-filter: blur(1vh);
 }
 @keyframes example {
 
@@ -127,7 +137,7 @@ background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#
   }
 
 }
-img {
+.header img {
  display: block;
   margin-left: auto;
   margin-right: auto;
