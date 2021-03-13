@@ -5,6 +5,8 @@ line-height:80px;
   overflow: hidden;
 width:100%;
 background-color: rgba(255,108,3,0.5);
+   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(1vh);
 }
 
 /* Navbar links */
@@ -69,6 +71,8 @@ body{
  background-size:100% 100vh;
    color: #e3e3e3;
  font-family: 'Orbitron', sans-serif; 
+  -webkit-backdrop-filter: blur(3vh);
+  backdrop-filter: blur(3vh);
 }
 h1{
  font-family: 'MuseoModerno', cursive; 
