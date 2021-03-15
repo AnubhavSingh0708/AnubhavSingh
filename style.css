@@ -75,9 +75,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 background-attachment: fixed;
 
-background-size: cover;
+background-size: 100% 100%;
       /* background by SVGBackgrounds.com */
-   color: #e3e3e3;
+    animation-name: examples;
  font-family: 'Orbitron', sans-serif; 
 }
 h1{
@@ -154,3 +154,47 @@ background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#
 
   -webkit-filter: blur(8px);
   }
+@keyframes examples {
+
+  0%{
+
+   color:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+
+  }
+
+  16.66666666666667%{
+
+   color:linear-gradient(45deg,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff);
+
+  }
+
+  33.33333333333334%{
+
+    color:linear-gradient(45deg,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00);
+
+  }
+
+  50%{
+
+    color:linear-gradient(45deg,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
+
+  }
+
+  66.66666666666667%{
+
+color:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
+
+  }
+
+  83.33333333333334%{
+
+  color:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
+
+  }
+
+  100%{
+
+  color:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+
+  }
+}
