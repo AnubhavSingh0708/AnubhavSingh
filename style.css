@@ -70,11 +70,11 @@ font-size: 400%;
 body{
   background:
 
-      linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0) 70.71%),
+      linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0)),
 
-      linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0)),
 
-      linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0) 70.71%);
+      linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0));
 
 
 
