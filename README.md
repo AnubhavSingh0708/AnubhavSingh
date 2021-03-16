@@ -1,4 +1,4 @@
-![Anubhav singh](S.png)
+![Anubhav singh](AS.png)
 # Anubhav Singh
 [a beginning web devloper by hobby:man_technologist:](https://github.com/AnubhavSingh0708)
 # repositories 
