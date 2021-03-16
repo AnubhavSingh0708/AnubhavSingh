@@ -68,12 +68,16 @@ font-size: 400%;
  animation-iteration-count: infinite;
   }
 body{
-  
-   background-color: #ff0000;
+  background:
 
-background-image: url("Spectrum-Gradient.svg");
+      linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0) 70.71%),
 
-background-attachment: fixed;
+      linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0) 70.71%),
+
+      linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0) 70.71%);
+
+
+
 
 background-size: 100% 100%;
       /* background by SVGBackgrounds.com */
