@@ -195,3 +195,6 @@ color:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
 
   }
 }
+img {
+  filter: contrast(180%);
+  }
