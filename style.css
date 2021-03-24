@@ -71,7 +71,9 @@ body{
 linear-gradient(120deg, rgba(255,0,0,0.8),rgba(255,0,0,0)),
 linear-gradient(360deg, rgba(0,0,255,1),  rgba(0,0,255,0)),
 linear-gradient(240deg, rgba(0,255,0,1), rgba(0,255,0,1));
-background-size: 100vh 100vw;
+background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
  font-family: 'Orbitron', sans-serif; 
 }
 h1{
