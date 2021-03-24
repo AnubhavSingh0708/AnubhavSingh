@@ -53,7 +53,7 @@ width:100%;
 
 .sticky + .content {
 
-  padding-top: 60px;
+ /* paddng-top: 60px;*/
 
 }
 .header {
