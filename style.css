@@ -70,9 +70,11 @@ font-size: 400%;
   }
 body{
    background:
-linear-gradient(120deg, rgba(255,0,0,0.8),rgba(255,0,0,0)),
-linear-gradient(360deg, rgba(0,0,255,1),  rgba(0,0,255,0)),
-linear-gradient(240deg, rgba(0,255,0,1), rgba(0,255,0,1));
+     linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
