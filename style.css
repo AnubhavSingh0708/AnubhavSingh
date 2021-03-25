@@ -80,8 +80,7 @@ background-size: 100vw 100vh;
   background-attachment: fixed;
  font-family: 'Orbitron', sans-serif; 
   border: 10vmin solid;
-
-  /* This won't work: */
+--angle: 0deg;
 
   border-image: linear-gradient(var(--angle), red, yellow, lime, aqua, blue, magenta) 1;
 
