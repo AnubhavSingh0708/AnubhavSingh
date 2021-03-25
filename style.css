@@ -201,3 +201,22 @@ color:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
 img {
   filter: contrast(180%);
   }
+@keyframes rotate {
+
+  to {
+
+    --angle: 360deg;
+
+  }
+
+}
+
+@property --angle {
+
+  syntax: '<angle>';
+
+  initial-value: 0deg;
+
+  inherits: false;
+
+}
