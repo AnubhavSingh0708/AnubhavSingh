@@ -79,7 +79,7 @@ background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
  font-family: 'Orbitron', sans-serif; 
-  border: 10vmin solid;
+  border: 3vmin solid;
 --angle: 0deg;
 
   border-image: linear-gradient(var(--angle), red, yellow, lime, aqua, blue, magenta) 1;
