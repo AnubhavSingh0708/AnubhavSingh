@@ -4,7 +4,7 @@ height:80px;
   overflow: hidden;
 width:100%;
   
-background-color: rgba(0,0,0,0.3);
+background-color: rgba(0,0,0,0.05);
 -webkit-backdrop-filter: blur(10px);	  
   backdrop-filter: blur(1vh);
     line-height: 80px;  
