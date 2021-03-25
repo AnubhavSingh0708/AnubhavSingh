@@ -79,6 +79,15 @@ background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
  font-family: 'Orbitron', sans-serif; 
+  border: 10vmin solid;
+
+  /* This won't work: */
+
+  border-image: linear-gradient(var(--angle), red, yellow, lime, aqua, blue, magenta) 1;
+
+  
+
+  animation: 10s rotate linear infinite;
 }
 h1{
   -webkit-backdrop-filter: blur(10px);	  
