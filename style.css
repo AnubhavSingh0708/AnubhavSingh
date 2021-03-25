@@ -96,9 +96,6 @@ h3{
  font-family: 'MuseoModerno', cursive; 
 }
 p{
-  backdrop-filter: brightness(1.5);  
-  backdrop-filter: contrast(.8);  
-  backdrop-filter: saturate(1.8);
 }
 @keyframes example {
 
