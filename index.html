@@ -107,7 +107,7 @@ then the chatbot will recogonise it by <br>if (text.match(/(what is|what's |What
   this is a simple localhost based todo web app
   <h3>how it works</h3>
 <h4>finding todos</h4>
-<p>at first when the site loads it requests the todos from local storage using
+<p>at first when the site loads it requests the todos from local storage using<br>
 document.addEventListener('DOMContentLoaded', () => {
  const ref = localStorage.getItem('todoItems');
 if (ref) {
@@ -118,7 +118,7 @@ todoItems.forEach(t => {
 }
 });</p>
 <h4>if todos found create todos</h4>
-<p>if todo list is detected then it makes the todo list else it removes the list and removes items from local storage using
+<p>if todo list is detected then it makes the todo list else it removes the list and removes items from local storage using<br>
  localStorage.setItem('todoItems', JSON.stringify(todoItems));
  const list = document.querySelector('.js-todo-list');
 const item = document.querySelector(`[data-key='${todo.id}']`);
@@ -126,11 +126,11 @@ if (todo.deleted) {
   item.remove();
  if (todoItems.length === 0) list.innerHTML = '';
  return
-}
+}<br>
 in function renderToDo(t) in the previous code
 </p>
 <h4>and when todo item is created</h4>
-<p>at first detecting if text input is submitted using
+<p>at first detecting if text input is submitted using<br>
 const form = document.querySelector('.js-form');
 form.addEventListener('submit', event => {
  event.preventDefault();
@@ -141,8 +141,8 @@ form.addEventListener('submit', event => {
  input.value = '';
  input.focus();
  }
-});
-and then on function addTodo(text); creating todo item and saving to local host using
+});<br>
+and then on function addTodo(text); creating todo item and saving to local host using<br>
 function addTodo(text) {
  const todo = {
  text,
@@ -153,14 +153,14 @@ todoItems.push(todo);
 renderTodo(todo);
 }</p>
 <h4>marking todos done</h4>
-<p>when todos are done click on them to mark done using javascript addEventListenerto detect if it is clicked
+<p>when todos are done click on them to mark done using javascript addEventListenerto detect if it is clicked<br>
 const list = document.querySelector('.js-todo-list');
 list.addEventListener('click', event => {
  if (event.target.classList.contains('js-tick')) {
 const itemKey = event.target.parentElement.dataset.key;
  toggleDone(itemKey);
- }
-and then marking todos done on function toggleDone(itemKey);
+ }<br>
+and then marking todos done on function toggleDone(itemKey);<br>
 function toggleDone(key) {
 const index = todoItems.findIndex(item => item.id === Number(key));
 todoItems[index].checked = !todoItems[index].checked;
@@ -168,13 +168,13 @@ renderTodo(todoItems[index])
 localStorage.setItem('todoItems', JSON.stringify(todoItems));
 }</p>
 <h4>deleting todos</h4>
-<p>detecting using
+<p>detecting using<br>
 if (event.target.classList.contains('js-delete-todo')) {
 const itemKey = event.target.parentElement.dataset.key;
 deleteTodo(itemKey);
   }
-});
- and then deleting using
+});<br>
+ and then deleting using<br>
 function deleteTodo(key) {
   const index = todoItems.findIndex(item => item.id === Number(key));
  const todo = {
