@@ -1,6 +1,9 @@
 ![Anubhav singh](https://avatars.githubusercontent.com/u/68738228?s=400&u=fd229e58a7fd6910a4910bad5c0920972eaf2f4d&v=4)
 # Anubhav Singh
 [a beginning web devloper by hobby](https://github.com/AnubhavSingh0708)
+### my goal 
+my goal is to acquire knowledge and spread it to the world 
+I create open source projects 
 # repositories 
 ## [BPCCC](https://github.com/AnubhavSingh0708/BPCCC)
 This is a site which will has fun activities and interactive user interface 
