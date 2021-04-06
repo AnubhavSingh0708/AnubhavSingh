@@ -21,6 +21,6 @@ a set of mathematial tools containing diagonal,pcd and a simple calculator
 ### ![status](https://img.shields.io/static/v1?label=status&message=delopment%20in%20prodress&color=ybrightgreen)
 ## [paint design](https://github.com/AnubhavSingh0708/paint-design)
 a simple `p5.js` javascript library based paint design web app
-### ![status](https://img.shields.io/static/v1?label=status&message=some%20glitches%20should%20be%20fixed&color=ybrightgreen) 
+### ![status of it](https://img.shields.io/static/v1?label=status&message=some%20glitches%20should%20be%20fixed&color=ybrightgreen) 
 ## [race](https://github.com/AnubhavSingh0708/race)
 ### ![status](https://img.shields.io/static/v1?label=status&message=delopment%20in%20prodress&color=ybrightgreen)
