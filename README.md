@@ -1,6 +1,9 @@
 ![Anubhav singh](https://avatars.githubusercontent.com/u/68738228?s=400&u=fd229e58a7fd6910a4910bad5c0920972eaf2f4d&v=4)
 # Anubhav Singh
-[a beginning web devloper by hobby](https://github.com/AnubhavSingh0708)
+[a beginning web devloper](https://github.com/AnubhavSingh0708)
+i am a mostly self taught web developer
+i like acquiring knowledge and spreading it to the world 
+I know html ,css and JavaScript the basic of creating a web app 
 ### my goal 
 my goal is to acquire knowledge and spread it to the world 
 I create open source projects 
