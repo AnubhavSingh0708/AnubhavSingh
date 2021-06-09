@@ -35,8 +35,8 @@ font-size: 40px;
   animation-duration: 2s;
         animation-timing-function: ease-in-out;
         animation-delay: 0s;
-        animation-iteration-count: 2;
-        animation-name: slideInLeft;
+        animation-iteration-count: 1;
+        animation-name: slideInTop;
 }
 body {
     color:white;
@@ -87,7 +87,7 @@ canvas{
     initial-value: 0deg;
     inherits: false;
   }
- @keyframes slideInLeft {
+ @keyframes slideInTop {
         0% {
          top:-90px;
         }
