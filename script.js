@@ -12,7 +12,7 @@ var speed = 50;
 
 		/* Function to stick the nav bar */
 		function myFunction() {
-			if ((window.pageYOffset+ window.innerHeight)>(div1y+80) ) {
+			if ((window.pageYOffset + window.innerHeight)>(div1y+80) ) {
 			typeWriter();	
 			}
 			else {
