@@ -1,230 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=MuseoModerno:wght@500&family=Orbitron&display=swap');
-#navbar {
-height:80px;
-  overflow: hidden;
-width:100%;
-  
-background-color: rgba(0,0,0,0.05);
--webkit-backdrop-filter: blur(10px);	  
-  backdrop-filter: blur(1vh);
-    line-height: 80px;  
-}
-
-/* Navbar links */
-
-#navbar a {
-font-size: 200%;
-  float: left;
-
-  display: block;
-
-  color: #f2f2f2;
-
-  text-align: center;
-font-family: 'Orbitron', sans-serif;
-
-  text-decoration: none;
-
-}
-
-/* Page content */
-
-.content {
-
-
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-
-.sticky {
-line-height: 80px;
+iframe {
   position: fixed;
-  left:0;
--webkit-backdrop-filter: blur(10px);	  
-
-  backdrop-filter: blur(1vh);
- top: 0;
-height:80px;
-  overflow: hidden;
-width:100%;
+  top: 0%;
+  left: 0%;
+  min-height: 100vh;
+  min-width: 100%;
+  z-index: 0;
+  background-color: transparent;
+  border: transparent;
 }
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-
-.sticky + .content {
-
- /* paddng-top: 60px;*/
-
+.navbar {
+  background-color: rgba(255, 255, 255, 0.3);
+position: fixed;
+top: 0px;
+width: 100vw;
+height: 70px;
+line-height: 70px;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(2px);
+left: 0px;
+font-size: 40px;
+}
+body {
+    color:white;
+    background-image: linear-gradient(45deg,#000000,#000,#000,rgb(44, 44, 44));
+   background-color: transparent;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    background-attachment: fixed;
+} 
+a {
+    color: white;
+    text-decoration: none;
 }
 .header {
-  overflow: scroll;
-  width:100%;
-  height:75vh;
-   background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
-
-  animation-name: example;
-font-size: 400%;
-  animation-duration: 1s;
-
- animation-iteration-count: infinite;
+    align-items: center;
+    text-align: center;
+    width: 98%;
+    line-height: 80%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.header span {
+    align-items: center;
+    text-align: center;
+    width: 46vw;
+}
+canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
   }
-body{
-   background:
-     linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0) 70.71%),
-
-      linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0) 70.71%),
-
-      linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0) 70.71%);
-background-size: 100vw 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
- font-family: 'Orbitron', sans-serif; 
-  border: 3vmin solid;
---angle: 0deg;
-
-  border-image: linear-gradient(var(--angle), red, yellow, lime, aqua, blue, magenta) 1;
-
+  .border {
+    --angle: 0deg;
+    border: 1px solid;
+    border-image: linear-gradient(var(--angle),#ff0000, #ffff00,#00ff00,#00ffff,#0000ff) 1;
+    text-align: center;
+    animation: 10s rotate linear infinite;
+  }
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
   
-
-  animation: 10s rotate linear infinite;
-}
-h1{
-  -webkit-backdrop-filter: blur(10px);	  
-  backdrop-filter: blur(1vh);
- font-family: 'MuseoModerno', cursive; 
-}
-h2{
-  -webkit-backdrop-filter: blur(10px);	  
-  backdrop-filter: blur(1vh);
- font-family: 'MuseoModerno', cursive; 
-}
-h3{
-  -webkit-backdrop-filter: blur(10px);	  
-  backdrop-filter: blur(1vh);
- font-family: 'MuseoModerno', cursive; 
-}
-p{
-}
-@keyframes example {
-
-  0%{
-
-    background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
-
-  }
-
-  16.66666666666667%{
-
-    background-image:linear-gradient(45deg,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff);
-
-  }
-
-  33.33333333333334%{
-
-    background-image:linear-gradient(45deg,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00);
-
-  }
-
-  50%{
-
-    background-image:linear-gradient(45deg,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
-
-  }
-
-  66.66666666666667%{
-
-background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
-
-  }
-
-  83.33333333333334%{
-
-    background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
-
-  }
-
-  100%{
-
-    background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
-
-  }
-
-}
-.header img {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-   border-radius: 50%;
-}
-.header-image {
-   filter: blur(8px);
-
-  -webkit-filter: blur(8px);
-  }
-@keyframes examples {
-
-  0%{
-
-   color:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
-
-  }
-
-  16.66666666666667%{
-
-   color:linear-gradient(45deg,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff);
-
-  }
-
-  33.33333333333334%{
-
-    color:linear-gradient(45deg,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00);
-
-  }
-
-  50%{
-
-    color:linear-gradient(45deg,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
-
-  }
-
-  66.66666666666667%{
-
-color:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
-
-  }
-
-  83.33333333333334%{
-
-  color:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
-
-  }
-
-  100%{
-
-  color:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
-
-  }
-}
-img {
-  filter: contrast(180%);
-  }
-@keyframes rotate {
-
-  to {
-
-    --angle: 360deg;
-
-  }
-
-}
-
-@property --angle {
-
-  syntax: '<angle>';
-
-  initial-value: 0deg;
-
-  inherits: false;
-
-}
+  
