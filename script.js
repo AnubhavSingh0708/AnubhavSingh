@@ -4,7 +4,7 @@ window.onload = function(){
  },10000);
 };
 window.onscroll = function() {myFunction()};
-var div1v=getElementById('div1');
+var div1v=document.getElementById('div1');
 var div1y = div1v.offsetTop;
 var i = 0;
 var txt = 'welcome to my site I am anubhav a developer by hobby I started developing when I was at 6th standard in 2019';
