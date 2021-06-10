@@ -12,7 +12,7 @@ var speed = 50;
 
 		/* Function to stick the nav bar */
 		function myFunction() {
-			if ((document.body.scrollTop- window.innerHeight)>(div1y+80) ) {
+			if (document.body.scrollTop> 300) {
 			typeWriter();	
 			}
 			else {
