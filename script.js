@@ -4,8 +4,8 @@ window.onload = function(){
  },10000);
 };
 window.onscroll = function() {myFunction()};
-var div1=document.getElementByID("div1")
-var div1y = div1.offsetTop;
+var div1v=document.getElementByID("div1")
+var div1y = div1v.offsetTop;
 var i = 0;
 var txt = '<h1 style="font-size:80px;">Hi There!</h1><br>welcome to my site I am anubhav a developer by hobby I started developing when I was at 6th standard in 2019';
 var speed = 50;
