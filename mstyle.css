@@ -76,9 +76,6 @@ iframe {
      align-items: center;
   height: 68vh;
   justify-content: center;
-  animation: rotateAS;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
   }
   .border h1{
     font-size: 80px;
