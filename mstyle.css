@@ -74,6 +74,7 @@ iframe {
   }
   #main {
      align-items: center;
+      animation-name: none;
   height: 68vh;
   justify-content: center;
   }
