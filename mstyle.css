@@ -41,7 +41,7 @@ iframe {
   }
   body {
       color:white;
-      background-image: url("bg.png");
+      background-color: black;
       background-position:50% 50%;
      background-color: transparent;
       background-repeat: no-repeat;
