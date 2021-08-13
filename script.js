@@ -2,7 +2,7 @@ window.onload = function(){
     myFunction();
     setTimeout(function(){
       document.getElementById('particleFrame').src = 'https://editor.p5js.org/anubhav0708/embed/jfdSCQNU2';
-    },1000);
+    },3000);
     
    };
    window.addEventListener("click", function(){
