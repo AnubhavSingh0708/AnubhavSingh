@@ -32,13 +32,13 @@
 				camera.autoRotate=true;
 				camera.autoRotateSpeed=2.0;
 				scene = new THREE.Scene();
-                const light = new THREE.PointLight( 0xffffff, 10, 500 );
+                const light = new THREE.PointLight( 0xffffff, 3, 500 );
                 light.position.set( 1, 10, 4 );
                light.castShadow = true; // default false
              
 			  light.shadow.mapSize.width = 512; // default
 light.shadow.mapSize.height = 512; // default
-light.shadow.camera.near = 0.05; // default
+light.shadow.camera.near = 1; // default
 light.shadow.camera.far = 5000; // default
 const light1 = new THREE.PointLight( 0xffffff, 5, 100 );
                 light1.position.set( -2, -10, -4 );
