@@ -26,13 +26,28 @@
    
 				const container = document.createElement( 'div' );
 				document.body.appendChild( container );
-                const light = new THREE.AmbientLight( 0xffffff ); // soft white light
               
-				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
-				camera.position.set( -10, 2, -10 );
-
+				camera = new THREE.PerspectiveCamera( 25, window.innerWidth / window.innerHeight,0.1, 10 );
+				camera.position.set( 1, 0.5, 1 );
+				camera.autoRotate=true;
+				camera.autoRotateSpeed=2.0;
 				scene = new THREE.Scene();
-                scene.add( light );
+                const light = new THREE.PointLight( 0xffffff, 5, 100 );
+                light.position.set( 1, 10, 4 );
+               light.castShadow = true; // default false
+              scene.add( light );
+			  light.shadow.mapSize.width = 5; // default
+light.shadow.mapSize.height = 5; // default
+light.shadow.camera.near = 0.5; // default
+light.shadow.camera.far = 500; // default
+const light1 = new THREE.PointLight( 0xffffff, 5, 100 );
+                light1.position.set( -2, -10, -4 );
+               light1.castShadow = true; // default false
+              scene.add( light1 );
+			  light1.shadow.mapSize.width = 5; // default
+light1.shadow.mapSize.height = 5; // default
+light1.shadow.camera.near = 0.5; // default
+light1.shadow.camera.far = 5; 
 				new RGBELoader()
 					.setPath( 'https://threejs.org/examples/textures/equirectangular/' )
 					.load( 'royal_esplanade_1k.hdr', function ( texture ) {
@@ -82,11 +97,10 @@
 
 				const controls = new OrbitControls( camera, renderer.domElement );
 				controls.addEventListener( 'change', render ); // use if there is no animation loop
-				controls.minDistance = 2;
-				controls.maxDistance = 10;
-				controls.target.set( 0, 0, - 0.2 );
+				controls.minDistance = -10;
+				controls.maxDistance = 1;
+				controls.target.set( 0,0.1, 0 );
 				controls.update();
-controls.autoRotate = true; 
 				window.addEventListener( 'resize', onWindowResize );
 
 			}
