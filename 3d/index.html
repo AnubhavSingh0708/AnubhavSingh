@@ -27,12 +27,12 @@
 				const container = document.createElement( 'div' );
 				document.body.appendChild( container );
               
-				camera =new THREE.DirectionalLight( 0xffffff, 0.5 );
+				camera =new THREE.PerspectiveCamera( 25, window.innerWidth / window.innerHeight,0.1, 10 );
 				camera.position.set( 1, 1, 1 );
 				camera.autoRotate=true;
 				camera.autoRotateSpeed=2.0;
 				scene = new THREE.Scene();
-                const light = new THREE.PointLight( 0xffffff, 1,-0.1,2);
+                const light = new THREE.DirectionalLight( 0xffffff, 0.5 );
                 light.position.set( 1, 10, 4 );
                light.castShadow = true; // default false
              
