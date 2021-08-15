@@ -35,7 +35,7 @@
                 const light = new THREE.PointLight( 0xffffff, 5, 100 );
                 light.position.set( 1, 10, 4 );
                light.castShadow = true; // default false
-              scene.add( light );
+             
 			  light.shadow.mapSize.width = 5; // default
 light.shadow.mapSize.height = 5; // default
 light.shadow.camera.near = 0.5; // default
@@ -43,7 +43,7 @@ light.shadow.camera.far = 500; // default
 const light1 = new THREE.PointLight( 0xffffff, 5, 100 );
                 light1.position.set( -2, -10, -4 );
                light1.castShadow = true; // default false
-              scene.add( light1 );
+             camera.add(light1);camera.add(light);
 			  light1.shadow.mapSize.width = 5; // default
 light1.shadow.mapSize.height = 5; // default
 light1.shadow.camera.near = 0.5; // default
