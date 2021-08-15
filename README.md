@@ -2,7 +2,3 @@
 ![Anubhav singh](https://cdn.jsdelivr.net/gh/AnubhavSingh0708/AnubhavSingh0708@main/AS.jpeg)
 # Anubhav Singh
 [a beginning web devloper](https://github.com/AnubhavSingh0708)
-## upcoming
-#### new website design
-#### a train game with suryakanti003
-#### a 3d game
