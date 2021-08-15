@@ -43,7 +43,7 @@ light.shadow.camera.far = 500; // default
 const light1 = new THREE.PointLight( 0xffffff, 5, 100 );
                 light1.position.set( -2, -10, -4 );
                light1.castShadow = true; // default false
-             camera.add(light1);camera.add(light);scene.add( camera );
+             camera.add(light);scene.add( camera );
 			  light1.shadow.mapSize.width = 5; // default
 light1.shadow.mapSize.height = 5; // default
 light1.shadow.camera.near = 0.5; // default
