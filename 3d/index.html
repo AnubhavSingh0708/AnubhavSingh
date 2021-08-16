@@ -39,7 +39,6 @@
 				camera.position.set( 1, 1, 1 );
 				camera.autoRotate=true;
 				camera.autoRotateSpeed=2.0;
-				controls.update();
 				scene = new THREE.Scene();
                 const light = new THREE.DirectionalLight( 0xffffff, 1);
                 light.position.set( 15,15,15);
@@ -129,18 +128,8 @@ light1.shadow.camera.far = 5;
 			function render() {
 
 				renderer.render( scene, camera );
-controls.update();
+
 			}
-			function animate() {
-
-	requestAnimationFrame( animate );
-
-	// required if controls.enableDamping or controls.autoRotate are set to true
-	controls.update();
-
-	renderer.render( scene, camera );
-
-}
 
 		</script>
 
