@@ -8,6 +8,10 @@ iframe {
     background-color: transparent;
     border: transparent;
   }
+#flag {
+ width:99vw;
+ height:99vw;
+}
   .skip-link {
     position: absolute;
     top: -40px;
