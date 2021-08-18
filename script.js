@@ -5,9 +5,7 @@ window.onload = function(){
     document.getElementById('flag').src = 'https://anubhavsingh0708.github.io/AnubhavSingh0708/3d/';
     },10000);
     setTimeout(function(){
-        var head = document.getElementsByTagName('HEAD')[0].innerHTML;
-        document.getElementsByTagName('HEAD')[0].innerHTML=head+='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">'
-        document.body.style.fontFamily="'ZCOOL QingKe HuangYou', cursive";
+         document.body.style.fontFamily="'ZCOOL QingKe HuangYou', cursive";
     },5000);
    };
    window.addEventListener("click", function(){
