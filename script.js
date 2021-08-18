@@ -5,7 +5,7 @@ window.onload = function(){
     document.getElementById('flag').src = 'https://anubhavsingh0708.github.io/AnubhavSingh0708/3d/';
     },10000);
     setTimeout(function(){
-         document.body.style.fontFamily="'ZCOOL QingKe HuangYou', cursive";
+       //  document.body.style.fontFamily="'ZCOOL QingKe HuangYou', cursive";
     },5000);
    };
    window.addEventListener("click", function(){
