@@ -4,6 +4,11 @@ window.onload = function(){
      document.getElementById('particleFrame').src = 'https://editor.p5js.org/anubhav0708/embed/jfdSCQNU2';
     document.getElementById('flag').src = 'https://anubhavsingh0708.github.io/AnubhavSingh0708/3d/';
     },10000);
+    setTimeout(function(){
+        var head = document.getElementsByTagName('HEAD')[0].innerHTML;
+        document.getElementsByTagName('HEAD')[0].innerHTML=head+='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">'
+        document.body.style.style.fontFamily="ZCOOL QingKe HuangYou', cursive";
+    },10000);
    };
    window.addEventListener("click", function(){
     window.navigator.vibrate(50);
