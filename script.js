@@ -1,4 +1,5 @@
 window.onload = function(){
+checkBrowser();
     myFunction();
     setTimeout(function(){
      document.getElementById('particleFrame').src = 'https://editor.p5js.org/anubhav0708/embed/jfdSCQNU2';
@@ -58,17 +59,17 @@ else {
     // Detect Chrome
        if( userAgentString.indexOf("Chrome") > -1)
        {
-
+  document.getElementById("chrome").style.display = "block";
        }// Detect Firefox
        else if( userAgentString.indexOf("Firefox") > -1)
        {
-
+  document.getElementById("firefox").style.display = "block";
        } // Detect Safari
        else if (userAgentString.indexOf("Safari") > -1)
        {
-
+  document.getElementById("safari").style.display = "block";
        }
        else {
-
+  document.getElementById("unreco").style.display = "block";
        }
 }
