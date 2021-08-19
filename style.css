@@ -2,6 +2,9 @@
 body::-webkit-scrollbar {
   display: none;
 }
+.icons{
+  border-radius:50%;
+}
 #flag {
 width:500px;
  height:500px;
