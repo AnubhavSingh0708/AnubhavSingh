@@ -1,3 +1,7 @@
+.icons{
+ 
+border-radius:50%;
+}
 #particleFrame {
     position: fixed;
     top: 0%;
