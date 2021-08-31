@@ -94,7 +94,8 @@ light1.shadow.camera.far = 5;
 
 					} );
 
-				renderer = new THREE.WebGLRenderer( { antialias: true } );
+				renderer = new THREE.WebGLRenderer( { alpha: true} );renderer.setClearColor( 0x00ff00, 0.5 );
+				
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth, window.innerHeight );
 				renderer.toneMapping = THREE.ACESFilmicToneMapping;
