@@ -106,7 +106,7 @@ light1.shadow.camera.far = 5;
 				const controls = new OrbitControls( camera, renderer.domElement );
 				controls.addEventListener( 'change', render ); // use if there is no animation loop
 				controls.minDistance = -10;
-				controls.maxDistance = 1;
+				controls.maxDistance = 1;controls.enablePan=true;
 				controls.target.set( 0,0.1, 0.2 );
 				controls.update();
 				window.addEventListener( 'resize', onWindowResize );
