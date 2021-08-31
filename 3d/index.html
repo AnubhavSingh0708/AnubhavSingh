@@ -103,7 +103,9 @@ light1.shadow.camera.far = 5;
 				renderer.outputEncoding = THREE.sRGBEncoding;
 				container.appendChild( renderer.domElement );
 
-				const controls = new OrbitControls( camera, renderer.domElement );
+				const controls = new OrbitControls( camera, renderer.domElement );controls.touches.ONE = THREE.TOUCH.PAN;
+
+controls.touches.TWO = THREE.TOUCH.DOLLY_ROTATE;
 				controls.addEventListener( 'change', render ); // use if there is no animation loop
 				controls.minDistance = -10;
 				controls.maxDistance = 1;controls.enablePan=true;
