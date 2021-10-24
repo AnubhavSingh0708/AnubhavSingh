@@ -1,191 +1,199 @@
 #chrome {
-background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg");
-  height: 50px;
-  width: 50px;
-  background-size:50px  50px;
-   border-radius:50%;
-}
-#firefox {
-background-image:url("https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg");
-  height: 50px;
-  background-size:50px  50px;
-  width: 50px;
-  border-radius:50%;
-} 
-#safari {
-background-image:url("https://upload.wikimedia.org/wikipedia/commons/5/52/Safari_browser_logo.svg");
-background-size:50px  50px;
-  height: 50px;
-  width: 50px;
-  border-radius:50%;
-}
-#unreco {
-background-image:url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Icon-round-Question_mark.svg");
-background-size:50px  50px;
-  height: 50px;
-  width: 50px;
-  border: 1px solid #4CAF50;
-  border-radius:50%;
-}
-#particleFrame {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    min-height: 100vh;
-    min-width: 100%;
-    z-index: 0;
-    background-color: transparent;
-    border: transparent;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg");
+    height: 50px;
+    width: 50px;
+    background-size:50px  50px;
+     border-radius:50%;
   }
-#flag {
- width:99vw;
- height:99vw;
-}
-  .skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    background: #000000;
-    color: white;
-    padding: 8px;
-    z-index: 100;
-  }
-  .skip-link:focus {
-    top: 0;
-  }
-  .navbar {
-      clip-path: polygon(0 0, 100% 0%,100% 50%, 96% 100%, 0% 100%);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.05); 
-    border-radius: 0px 0px 10px 0px; 
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  height: 70px;
-  line-height: 70px;
-  left: 0px;
-  font-size: 200%;
-    animation-duration: 2s;
-          animation-timing-function: ease-in-out;
-          animation-delay: 1s;
-          animation-iteration-count: 1;
-          animation-name: slideInTop;
-          z-index: 10;
-  }
-  body {
-      color:white;
-      background-color: black;
-      background-position:50% 50%;
-     background-color: transparent;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-     
+  #firefox {
+  background-image:url("https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg");
+    height: 50px;
+    background-size:50px  50px;
+    width: 50px;
+    border-radius:50%;
   } 
-  a {
+  #safari {
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/5/52/Safari_browser_logo.svg");
+  background-size:50px  50px;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+  }
+  #unreco {
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Icon-round-Question_mark.svg");
+  background-size:50px  50px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #4CAF50;
+    border-radius:50%;
+  }
+  #particleFrame {
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      min-height: 100vh;
+      min-width: 100%;
+      z-index: -190;
+      background-color: transparent;
+      border: transparent;
+    }
+  #flag {
+   width:99vw;
+   height:99vw;
+  }
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000000;
       color: white;
-      text-decoration: none;
-  }
-  .header {
-      align-self: center;
-      line-height: 80%;
-      font-size: 20px;
-      display: flex;   
-      flex-flow:row;
-    justify-content: center;
-  }
-  .blur {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(3px);
-    background-color: rgba(143, 143, 143, 0.05);
-    border-radius: 5px;
-    z-index: 0;
-    /*width: -moz-fit-content;
-    width: fit-content;*/
-    align-self: center;
-    padding: 5px;
-    margin: 5px;
-  }
-  #main {
-     align-items: center;
-      animation-name: none;
-  height: 68vh;
-  justify-content: center;
-  }
-  .border h1{
-    font-size: 80px;
-  }
-  .header span {
-      align-items: center;
-      text-align: center;
-      width: 40%;
-      font-weight: (100/50)vw;
-      width: -moz-fit-content;
-      width: fit-content;
+      padding: 8px;
+      z-index: 100;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+    .navbar {
+        clip-path: polygon(0 0, 100% 0%,100% 50%, 96% 100%, 0% 100%);
       -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(3px);
-    background-color: rgba(143, 143, 143, 0.05);
-    border-radius: 10px;
-    z-index: 0;
-  }
-  canvas{
-      position:absolute;
-      left:0;
-      top:0;
-      z-index:-1;
+      backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0.05); 
+      border-radius: 0px 0px 10px 0px; 
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+    left: 0px;
+    font-size: 200%;
+      animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+            animation-name: slideInTop;
+            z-index: 10;
     }
-    #AS1{
-      font-size: 40px;
+    body {
+        color:white;
+        background-color: black;
+        background-position:50% 50%;
+       background-color: transparent;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       
+    } 
+    a {
+        color: white;
+        text-decoration: none;
     }
-    .border {
-      position:relative;
+    .header {
+        align-self: center;
+        line-height: 80%;
+        font-size: 20px;
+        display: flex;   
+        flex-flow:row;
+      justify-content: center;
     }
-    .border::before {
-          animation-delay: 8s;
-      animation: 10s rotate linear infinite;
-      content:"";
-      position:absolute;
-      top:0;
-      left:0;
-      right:0;
-      bottom:0;
-      border-radius:5px; 
-      padding:1px; 
-      background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
-      -webkit-mask: 
-         linear-gradient(#fff 0 0) content-box, 
-         linear-gradient(#fff 0 0);
-      -webkit-mask-composite: destination-out; 
-      mask-composite: exclude; 
+    .blur {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(3px);
+      background-color: rgba(143, 143, 143, 0.05);
+      border-radius: 5px;
+      z-index: 0;
+      /*width: -moz-fit-content;
+      width: fit-content;*/
+      align-self: center;
+      padding: 5px;
+      margin: 5px;
     }
-    @property --angle {
-      syntax: '<angle>';
-      initial-value: 0deg;
-      inherits: false;
+    #main {
+       align-items: center;
+        animation-name: none;
+    height: 68vh;
+    justify-content: center;
     }
-    @keyframes rotate {
-      to {
-        --angle: 360deg;
+    .border h1{
+      font-size: 80px;
+    }
+    .header span {
+        align-items: center;
+        text-align: center;
+        width: 40%;
+        font-weight: (100/50)vw;
+        width: -moz-fit-content;
+        width: fit-content;
+        -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(3px);
+      background-color: rgba(143, 143, 143, 0.05);
+      border-radius: 10px;
+      z-index: 0;
+    }
+    canvas{
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:-1;
       }
-    }
-    
-   @keyframes slideInTop {
-          0% {
-           top:-90px;
-          }
-          100% {
-           top:0%;
-          }
+      #AS1{
+        font-size: 40px;
+      }
+      .border {
+        position:relative;
+      }
+      .border::before {
+            animation-delay: 8s;
+        animation: 10s rotate linear infinite;
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        border-radius:5px; 
+        padding:1px; 
+        background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
+        -webkit-mask: 
+           linear-gradient(#fff 0 0) content-box, 
+           linear-gradient(#fff 0 0);
+        -webkit-mask-composite: destination-out; 
+        mask-composite: exclude; 
+      }
+      @property --angle {
+        syntax: '<angle>';
+        initial-value: 0deg;
+        inherits: false;
+      }
+      @keyframes rotate {
+        to {
+          --angle: 360deg;
         }
-  @keyframes rotateAS {
-  0% {
-    transform: rotateY(90deg) rotateX(90deg);
+      }
+      
+     @keyframes slideInTop {
+            0% {
+             top:-90px;
+            }
+            100% {
+             top:0%;
+            }
+          }
+    @keyframes rotateAS {
+    0% {
+      transform: rotateY(90deg) rotateX(90deg);
+    }
+    100% {
+      transform: rotateY(0deg) rotateX(0deg);
+    }
+   }    
+   #flag{
+     max-width: 99vw;
+     min-width: 1px;
+   }
+   @keyframes wow {
+    0% {
+      transform: initial;
+    }
+    100% {
+      
+    }
   }
-  100% {
-    transform: rotateY(0deg) rotateX(0deg);
-  }
- }    
- #flag{
-   max-width: 99vw;
-   min-width: 1px;
- }
