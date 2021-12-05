@@ -2,7 +2,6 @@ window.onload = function(){
   checkBrowser();
       myFunction();
       setTimeout(function(){
-       document.getElementById('particleFrame').src = 'https://editor.p5js.org/anubhav0708/embed/jfdSCQNU2';
       document.getElementById('flag').src = 'https://anubhavsingh0708.github.io/AnubhavSingh0708/3d/';
       },10000);
       setTimeout(function(){
