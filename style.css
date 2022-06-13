@@ -63,10 +63,11 @@ width:500px;
 }
 .navbar {
   clip-path: polygon(0 0, 100% 0%,100% 50%, 96% 100%, 0% 100%);
-  border-radius: 0px 0px 10px 0px; 
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.05);  
+  border-radius: 0px 0px 10px 0px;
+  background-color: rgba(255, 255, 255, 0.1);  
+  background-image: url(drawing.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 position: fixed;
 top: 0px;
 width: 100vw;
@@ -101,10 +102,11 @@ a {
   justify-content: center;
 }
 .blur {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(3px);
   background-color: rgba(143, 143, 143, 0.05);
-  border-radius: 5px;
+  border-radius: 8px;
+  background-image: url(drawing.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 0;
   /*width: -moz-fit-content;
   width: fit-content;*/
@@ -128,9 +130,7 @@ a {
     width: -moz-fit-content;
     width: fit-content;
     padding: 5px;
-    -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(3px);
-  background-color: rgba(143, 143, 143, 0.1);
+  background-color: rgba(143, 143, 143, 0.05);
   border-radius: 10px;
   z-index: 0;
 }
@@ -157,59 +157,27 @@ canvas{
     initial-value: 0deg;
     inherits: false;
   }*/
-  .border {
-    position:relative;
+  .border{
+    position: relative;
   }
   .border::before {
-      animation-delay: 8s;
-    animation: 10s rotate linear infinite;
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    border-radius:10px; 
-    padding:1px; 
-    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
-    -webkit-mask: 
-       linear-gradient(#fff 0 0) content-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out; 
-    mask-composite: exclude; 
-  }
-  @property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-  }
-  @keyframes rotate {
-    to {
-      --angle: 360deg;
-    }
-  }
-  
- @keyframes slideInTop {
-        0% {
-         top:-90px;
-        }
-        100% {
-         top:0%;
-        }
-      }
-@keyframes rotateAS {
-  0% {
-    transform: rotateY(90deg) rotateX(90deg);
-  }
-  100% {
-    transform: rotateY(0deg) rotateX(0deg);
-  }
- }    
- @keyframes wow {
-  from {
-    transform: initial;
-  }
-  to {
-   
-  }
+    animation-delay: 8s;
+  animation: 10s rotate linear infinite;
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:10px; 
+  padding:1px; 
+  background:linear-gradient(35deg,hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
 }
+ 
+ 
+  
