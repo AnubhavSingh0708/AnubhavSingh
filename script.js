@@ -4,6 +4,7 @@
       var audiov = document.getElementById("myAudio"); 
       audiov.play();
     });
+  
      var div1v=document.getElementById('div1');
      var div1y = div1v.offsetTop;
      var div2v=document.getElementById('prank');
@@ -13,7 +14,7 @@
      var i = 0;
      var txt = ' to my site I am Anubhav a hobbyist developer';
      var speed = 50;
-     
+     ScrollTrigger.addEventListener("scrollStart", myFunction());
   function myFunction() {
   div1y = div1v.offsetTop; 
   div2y = div2v.offsetTop;
@@ -41,10 +42,7 @@
       navigator.vibrate(100);
       document.getElementById("myAudio").play();
      };
-     document.getElementById('particleFrame').onclick = function() {
-      navigator.vibrate(100);
-      document.getElementById("myAudio").play();
-     };
+   
      function checkBrowser() {
             
       // Get the user-agent string
@@ -80,7 +78,7 @@
   
   var doge = new Image();
   doge.src = 'http://vignette2.wikia.nocookie.net/camphalfbloodroleplay/images/0/05/Doge.png/revision/latest?cb=20140628024222';
-  doge.onload = init;
+ 
   
   
   function runprank() {
