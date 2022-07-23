@@ -106,6 +106,6 @@
 
     setTimeout(function(){
     location.assign("prank.html");
-    },3000);
-  },1000);
+    },5000);
+  },0500);
   }
