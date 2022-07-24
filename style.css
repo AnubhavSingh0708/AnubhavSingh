@@ -84,7 +84,7 @@ font-size: 40px;
 }
 body {
     color:white;
-    background-image: url("bg.png");
+    background-image: url("bg.svg");
     background-position:50% 50%;
    background-color: transparent;
     background-repeat: no-repeat;
