@@ -43,37 +43,7 @@
       document.getElementById("myAudio").play();
      };
    
-     function checkBrowser() {
-            
-      // Get the user-agent string
-      let userAgentString = 
-          navigator.userAgent;
-    
-      // Detect Chrome
-         if( userAgentString.indexOf("Chrome") > -1)
-         {
-    document.getElementById("chrome").style.display = "block";
-         }// Detect Firefox
-         else if( userAgentString.indexOf("Firefox") > -1)
-         {
-    document.getElementById("firefox").style.display = "block";
-         } // Detect Safari
-         else if (userAgentString.indexOf("Safari") > -1)
-         {
-    document.getElementById("safari").style.display = "block";
-         }
-         else {
-    document.getElementById("unreco").style.display = "block";
-         }
-  }
-  (function () {
-    Math.randomInt = function (min, max) {
-      return Math.floor(Math.random() * (max - min)) + min;
-    };
-    Math.randomDec = function (min, max, decimals) {
-      return (Math.random() * (max - min) + min).toFixed(decimals || 2);
-    };
-  })();
+     
   
   
   var doge = new Image();
