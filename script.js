@@ -1,4 +1,4 @@
-
+window.location.assign('https://anubhavsingh0708.github.io/');
      window.addEventListener("click", function(){
       window.navigator.vibrate(50);
       var audiov = document.getElementById("myAudio"); 
