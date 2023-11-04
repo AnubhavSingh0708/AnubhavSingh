@@ -5,4 +5,4 @@
 
 [a beginning web devloper](https://github.com/AnubhavSingh0708)
 ## discord
-[aesjwst](discordapp.com/users/902517931664101456)
+[aesjwst](https://discordapp.com/users/902517931664101456)
