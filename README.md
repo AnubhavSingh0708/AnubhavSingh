@@ -3,7 +3,7 @@
 ![Anubhav singh](/AS.jpeg)
 # Anubhav Singh
 
-[a beginning web devloper](https://github.com/AnubhavSingh0708)
+[a beginning web developer](https://github.com/AnubhavSingh0708)
 ## latest
 ### [AI search](https://github.com/AnubhavSingh0708/AI-search)
 [demo](https://search.anubhav0708.repl.co/)
